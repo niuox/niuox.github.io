@@ -1,0 +1,11 @@
+# Site settings
+title: WKUZHPKB's blog
+email: oxguocheng@gmail.com
+description: WKUZHPKB's blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://niuox.github.io" # the base hostname & protocol for your site
+twitter_username: niuox
+github_username:  niuox
+
+# Build settings
+markdown: kramdown

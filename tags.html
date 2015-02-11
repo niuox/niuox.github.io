@@ -1,0 +1,28 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<div class="home">
+
+  <!-- <ul class="post-list"> -->
+    <p>
+    {% for tag in site.tags %}
+      <!-- <li> -->
+      	<!--	<h1> {{ tag[0] }} </h1>
+		  <ul class="post-list">
+		    {% for post in tag[1] %}
+		      <li>
+		        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		        <h2>
+		          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		        </h2>
+		      </li>
+		    {% endfor %}
+		  </ul>
+		-->
+		<a class="tagsfor" href="/tag/{{ tag[0] }}">{{ tag[0] }}</a>
+    {% endfor %}
+    </p>
+</div>
